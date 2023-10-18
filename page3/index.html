@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@200;300;400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../style/normalize.css">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="code/code.js" type = "module"></script>
+</head>
+<body>
+    <div class="basket">
+        <div class="basket__header">
+            <p class="basket__title">BASKET</p>
+            <button type="button" class="basket__close">
+                <span class="basket-line1"></span>
+                <span class="basket-line2"></span>
+            </button>
+        </div>
+        <div class="basket__main">
+            <div class="basket__goods">
+            </div>
+            <div class="basket__order-block">
+                <div class="basket__sum">
+                    <p class="sum__title">Payable</p>
+                    <p class="sum__number"></p>
+                </div>
+                <button type="button" class="order__button">O R D E R</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <div class="main-content">
+            <div class="main__img">
+                <div class="main__img__container">
+                    <img id = "main-img" src="./img/image 10.png">
+                </div>
+                <div class="small__images">
+                    <div id = "front" class="small__img">
+                        <img src="img/image 10.png">
+                    </div>
+                    <div id = "back" class="small__img">
+                        <img src="img/image 102.png">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="main__description">
+                <p class="main__name">Sportif's Original Short <span class = "main__item">ITEM # 670170</span></p>   
+                <span class="main__item__phone-vers">ITEM # 670170</span>
+
+                <div class="phone__images">
+                    <div class="phone__img">
+                        <img src="img/image 10.png" alt="">
+                    </div>
+                    <div class="phone__img">
+                        <img src="img/image 102.png" alt="">
+                    </div>
+                </div>
+
+                <div class="main__rating">
+                    <div class="main__stars">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="105%" viewBox="0 0 150 25" fill="none">
+                            <path d="M12.1795 0L15.7587 7.25312L23.7629 8.41582L17.9708 14.0612L19.3384 22.0329L12.1795 18.2688L5.02056 22.0329L6.38819 14.0612L0.596107 8.41582L8.60027 7.25312L12.1795 0Z"
+                                fill="#FFCC48" />
+                            <path d="M43.5896 0L47.1689 7.25312L55.173 8.41582L49.3809 14.0612L50.7486 22.0329L43.5896 18.2688L36.4307 22.0329L37.7983 14.0612L32.0063 8.41582L40.0104 7.25312L43.5896 0Z"
+                                fill="#FFCC48" />
+                            <path d="M74.9998 0L78.579 7.25312L86.5832 8.41582L80.7911 14.0612L82.1587 22.0329L74.9998 18.2688L67.8409 22.0329L69.2085 14.0612L63.4164 8.41582L71.4206 7.25312L74.9998 0Z"
+                                fill="#FFCC48" />
+                            <path d="M106.41 0L109.99 7.25312L117.994 8.41582L112.202 14.0612L113.569 22.0329L106.41 18.2688L99.2515 22.0329L100.619 14.0612L94.8271 8.41582L102.831 7.25312L106.41 0Z"
+                                fill="#FFCC48" />
+                            <path d="M137.821 0L141.4 7.25312L149.404 8.41582L143.612 14.0612L144.98 22.0329L137.821 18.2688L130.662 22.0329L132.029 14.0612L126.237 8.41582L134.241 7.25312L137.821 0Z"
+                                fill="#FFCC48" />
+                        </svg>
+                    </div>
+                    <p class="main__item">93 REVIEWS</p>
+                </div>         
+
+                <div class="price">
+                    <p class="main__caption">As low as</p>
+                    <p class="price__number">$67.00</p>
+                </div>
+                <p class="main__caption">COLOR:</p>
+                <div class="main__colors">
+                    <img src="img/colors.png" alt="">
+                </div>
+                <p class="main__caption">SIZE:</p>
+                <div class="main__sizes">
+                    <div class="size">30</div>
+                    <div class="size">32</div>
+                    <div class="size">34</div>
+                    <div class="size">36</div>
+                    <div class="size">38</div>
+                    <div class="size">40</div>
+                    <div class="size">42</div>
+                    <div class="size">44</div>
+                    <div class="size">46</div>   
+                </div>
+                <button type="button" class = "add-to-cart">ADD TO BAG</button>
+                <button type="button" class = "wishlist">ADD TO WISHLIST</button>
+                <div class="links">
+                    <a href = "https://www.facebook.com/" target="_blank" class="soc-link">
+                        <img src="img/facebook.svg">
+                    </a>
+                    <a href="https://twitter.com/" target="_blank" class="soc-link">
+                        <img src="img/twitter.svg">
+                    </a>  
+                    <a href="https://ru.pinterest.com/" target="_blank" class="soc-link">
+                        <img src="img/pinterest.svg">
+                    </a>
+                    <a href="#" target="_blank" class="soc-link">
+                        <img src="img/link.svg">
+                    </a>
+                </div>
+                <div class="delivery">
+                    <h1 class="delivery__title">- Worry Free Shopping -</h1>
+                    <div class="delivery__description">
+                        <div class="delivery__description__item">
+                            <img src="img/free-delivery.svg">
+                            <p class="delivery__text">FREE PRIORITY SHIPPING ON ORDERS $99+*</p>
+                        </div>
+                        <div class="delivery__description__item">
+                            <img src="img/exchange.svg">
+                            <p class="delivery__text">FREE RETURNS & EXCHANGES*</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

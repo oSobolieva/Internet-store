@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sportif</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@200;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+
+    <script src = "code/basket.js" type="module"></script>
+    <script src="code/code.js" type="module"></script>
+</head>
+<body>
+    <header class="header wrapper">
+        <div class="header__container">
+            <div class="header__logo">
+                <img src="/img/logo.png" alt="logo">
+            </div>
+            <nav class="header__links">
+                <ul class="header__list">
+                    <li class="header__list__item"><a href="" class="header__item__link">SHORTS</a></li>
+                    <li class="header__list__item"><a href="" class="header__item__link">PANTS</a></li>
+                    <li class="header__list__item"><a href="" class="header__item__link">SHIRTS</a></li>
+                    <li class="header__list__item"><a href="" class="header__item__link">ACCESSORIES</a></li>
+                    <li class="header__list__item"><a href="" class="header__item__link">SALE</a></li>
+                    <li class="header__list__item">
+                        <div>
+                            <input type="search" id="header__search" placeholder="SEARCH ENTIRE STORE HERE">
+                            <div class="search__container">
+                            </div>
+                        </div>
+                        
+                    </li>
+                    
+                </ul>
+            </nav>
+            <div class="menu__icon">
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <div class = "basket">
+            <div class="basket__header">
+                <p class="basket__title">BASKET</p>
+                <button type="button" class="basket__close">
+                    <span class = "basket-line1"></span>
+                    <span class = "basket-line2"></span>
+                </button>
+            </div>
+            <div class="basket__main">
+                <div class="basket__goods">
+                </div>
+                <div class="basket__order-block">
+                    <div class="basket__sum">
+                        <p class="sum__title">Payable</p>
+                        <p class="sum__number"></p>
+                    </div>
+                    <button type="button" class = "order__button">O R D E R</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="search-block">
+            <div class="wrapper">
+                <div class="way">
+                    <img src="img/home.png" class="way__logo">
+                    <a href = "./../index.html" class="way__text">HOME</a>
+                    <img src="img/arrow.svg" class = "way__arrow">
+                    <p class="way__bold">SHORTS</p>
+                </div>
+                <div class="main-search">
+                    <input type="search" id="main-search" placeholder="SEARCH">
+                    <div class="main-search__container">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="wrapper">
+                <button type="button" class = "filter__button">FILTERS</button>
+                <div class="main__filters">
+                    <div class="filter">
+                        <div class="filter__name">
+                            <p class="filter__title">SIZE</p>
+                            <div id = "filter-arrow">
+                                <img src="img/filter-arrow.svg">
+                            </div>
+                        </div>
+                        
+                        <div id = "filter-sizes" class="filter__block">
+                            <input type="checkbox" name="" id="size1">
+                            <label for="size1" class = "size-label">32</label>
+                            <input type="checkbox" name="" id="size2">
+                            <label for="size2" class = "size-label">34</label>
+                            <input type="checkbox" name="" id="size3">
+                            <label for="size3" class = "size-label">36</label>
+                            <input type="checkbox" name="" id="size4">
+                            <label for="size4" class = "size-label">38</label>
+                            <input type="checkbox" name="" id="size5">
+                            <label for="size5" class = "size-label">40</label>
+                            <input type="checkbox" name="" id="size6">
+                            <label for="size6" class = "size-label">42</label>
+                            <input type="checkbox" name="" id="size7">
+                            <label for="size7" class = "size-label">44</label>
+                            <input type="checkbox" name="" id="size8">
+                            <label for="size8" class = "size-label">46</label>
+                        </div>
+                    </div>
+                    <div class="filter filter__decoration">
+                        <div class="filter__name">
+                            <p class="filter__title">COLOR</p>
+                            <div id = "filter-arrow">
+                                <img src="img/filter-arrow.svg">
+                            </div>
+                        </div>
+                        <div id = "filter-colors" class="filter__block">
+                            <input type="checkbox" id="color1">
+                            <label for="color1" class="color-label"></label>
+                            <input type="checkbox" id="color2">
+                            <label for="color2" class="color-label"></label>
+                            <input type="checkbox" id="color3">
+                            <label for="color3" class="color-label"></label>
+                            <input type="checkbox" id="color4">
+                            <label for="color4" class="color-label"></label>
+                            <input type="checkbox" id="color5">
+                            <label for="color5" class="color-label"></label>
+                            <input type="checkbox" id="color6">
+                            <label for="color6" class="color-label"></label>
+                            <input type="checkbox" id="color7">
+                            <label for="color7" class="color-label"></label>
+                        </div>
+                    </div>
+                    <div class="filter filter__decoration">
+                        <div class="filter__name">
+                            <p class="filter__title">RATING</p>
+                            <div id = "filter-arrow">
+                                <img src="img/filter-arrow.svg">
+                            </div>
+                        </div>
+                        <div id = "filter-rating" class="filter__block">
+                            <input type="checkbox" name="" id="star1">
+                            <label for="star1" class="star-label">1</label>
+                            <input type="checkbox" name="" id="star2">
+                            <label for="star2" class="star-label">2</label>
+                            <input type="checkbox" name="" id="star3">
+                            <label for="star3" class="star-label">3</label>
+                            <input type="checkbox" name="" id="star4">
+                            <label for="star4" class="star-label">4</label>
+                            <input type="checkbox" name="" id="star5">
+                            <label for="star5" class="star-label">5</label>
+                        </div>
+                    </div>
+                    <div class="filter filter__decoration">
+                        <div class="filter__name">
+                            <p class="filter__title">INSEAM</p>
+                            <div id = "filter-arrow">
+                                <img src="img/filter-arrow.svg">
+                            </div>
+                        </div>
+                        <div id = "filter-inseam" class="filter__block">
+                    
+                        </div>
+                    </div>
+                    <div class="filter filter__decoration">
+                        <div class="filter__name">
+                            <p class="filter__title">SUSTAINABLE FABRIC</p>
+                            <div id = "filter-arrow">
+                                <img src="img/filter-arrow.svg">
+                            </div>
+                        </div>
+                        <div id = "filter-fabric" class="filter__block">
+                    
+                        </div>
+                    </div>
+                    <div class="filter filter__decoration">
+                        <div class="filter__name">
+                            <p class="filter__title">COLLECTIONS</p>
+                            <div id = "filter-arrow">
+                                <img src="img/filter-arrow.svg">
+                            </div>
+                        </div>
+                        <div id = "filter-collections" class="filter__block">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="main__cards">
+                </div>
+            </div>
+        </div>
+
+        <div class="wrapper">
+            <div class="pagination"></div>
+        </div>
+
+        <button type="button" class="arrow-up">
+            <img src="img/arrow.png" alt="">
+        </button>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="wrapper">
+                <ul class="footer__list">
+                    <li class="footer__item">ORDERING ONLINE</li>
+                    <li class="footer__item"><a href="" class="footer__link">Account Login</a></li>
+                    <li class="footer__item"><a href="" class="footer__link">Our Guarantee</a></li>
+                    <li class="footer__item"><a href="" class="footer__link">Sportif Stretch Guide</a></li>
+                    <li class="footer__item"><a href="" class="footer__link">Size Chart & Sizing Information</a></li>
+                    <li class="footer__item"><a href="" class="footer__link">Hemming Information</a></li>
+                    <li class="footer__item"><a href="" class="footer__link">Ordering & Payment</a></li>
+                    <li class="footer__item"><a href="" class="footer__link">Shipping Information</a></li>
+                    <li class="footer__item"><a href="" class="footer__link">Returns</a></li>
+                </ul>
+                <ul class="footer__list">
+                    <li class="footer__item">ABOUT SPORTIF</li>
+                    <li class="footer__item"><a href="" class="footer__link">COVID-19 Response</a></li>
+                    <li class="footer__item"><a href="" class="footer__link">History</a></li>
+                    <li class="footer__item"><a href="" class="footer__link">Legacy</a></li>
+                    <li class="footer__item"><a href="" class="footer__link">Good Sam Program</a></li>
+                    <li class="footer__item"><a href="" class="footer__link">Privacy & Security</a></li>
+                    <li class="footer__item"><a href="" class="footer__link">Terms & Conditions</a></li>
+                    <li class="footer__item"><a href="" class="footer__link">Careers</a></li>
+                </ul>
+                <ul class="footer__list">
+                    <li class="footer__item footer__shadows">QUICK LINKS</li>
+                    <li class="footer__item"><a href="" class="footer__link footer__shadows">FAQs</a></li>
+                    <li class="footer__item"><a href="" class="footer__link footer__shadows">Shop Online Catalog</a></li>
+                    <li class="footer__item"><a href="" class="footer__link footer__shadows">Contact Us</a></li>
+                </ul>
+                <div class="footer__container">
+                    <h3 class="footer__container__title">GET TO KNOW US</h3>
+                    <p class="footer__container__description">Sign up for our weekly newsletter and get a 10% off coupon by
+                        email for your first order!</p>
+    
+                    <form action="" class="footer__form">
+                        <label for="" class="footer__container__description">Sign Up for Our Newsletter:</label>
+                        <input type="email" placeholder="EMAIL ADDRESS" class="footer__input">
+                        <button type="button" class="footer__button">SUBSCRIBE</button>
+                    </form>
+    
+                </div>
+            </div>
+        </div>
+        <div class="wrapper">
+            <p class="rights">©2021 Sportif Mailorder. All Rights Reserved.</p>
+        </div>
+    
+    </footer>
+</body>
+</html>

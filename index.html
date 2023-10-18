@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sportif</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@200;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="./style/style.css">
+
+    <script src="code/code.js" type = "module"></script>
+</head>
+<body>
+    <header class = "header wrapper">
+        <div class="header__container">
+            <div class="header__logo">
+                <img src="/img/logo.png" alt="logo">
+            </div>
+            <nav class="header__links">
+                <ul class="header__list">
+                    <li class="header__list__item"><a href="page2/index.html" class="header__item__link">SHORTS</a></li>
+                    <li class="header__list__item"><a href="page2/index.html" class="header__item__link">PANTS</a></li>
+                    <li class="header__list__item"><a href="page2/index.html" class="header__item__link">SHIRTS</a></li>
+                    <li class="header__list__item"><a href="page2/index.html" class="header__item__link">ACCESSORIES</a></li>
+                    <li class="header__list__item"><a href="page2/index.html" class="header__item__link">SALE</a></li>
+                    <li class="header__list__item"><input type="search" id="header__search" placeholder="SEARCH ENTIRE STORE HERE">
+                    <div class="search__container">
+                    </div>
+                    </li>
+                </ul>
+            </nav>
+            <div class="menu__icon">
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="basket">
+            <div class="basket__header">
+                <p class="basket__title">BASKET</p>
+                <button type="button" class="basket__close">
+                    <span class="basket-line1"></span>
+                    <span class="basket-line2"></span>
+                </button>
+            </div>
+            <div class="basket__main">
+                <div class="basket__goods">
+                </div>
+                <div class="basket__order-block">
+                    <div class="basket__sum">
+                        <p class="sum__title">Payable</p>
+                        <p class="sum__number"></p>
+                    </div>
+                    <button type="button" class="order__button">O R D E R</button>
+                </div>
+            </div>
+        </div>
+
+            <!-- 7 Sections -->
+        <section>
+            <div class="wrapper">
+                <div class="section1-3">
+                    <div class="s1-3__title">
+                    <h1 class="whiteblock__title">BEST SELLING STRETCH SHORTS</h1>
+                    <p class="whiteblock__description">Get the perfect fit with 6 different inseam lengths.</p>
+                    <button type="button" class="grey-button"><a href="page2/index.html">SHOP ALL SHORTS</a></button>
+                </div>
+                <div class="s1-3__visual">
+                    <div class="visual__frame"></div>
+                    <div class="visual__background"></div>
+                    <div class="visual__img__sect1">
+                        <img src="img/first_img.png" alt="">
+                    </div>
+                </div>
+                </div>   
+            </div>  
+        </section>
+
+        <section>
+            <div class="sale">
+                <div class = "wrapper">
+                    <div class="sale__title">
+                        <h2 class="sale__description">TGIF, INLET, AND MARCHAL'S COLLECTIONS</h2>
+                        <h1 class="sale__main-text">NOW 40% OFF!</h1>
+                    </div>
+                    <div class="sale__cards">
+                        <div class="sale__card">
+                            <div class="card__img"><img src="img/sale_1.png" alt=""></div>
+                            <p class="card__name">Marchal's Original Cargo Short</p>
+                            <div class="card__container">
+                                <div class="card__mark">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="150" height="25" viewBox="0 0 150 25" fill="none">
+                                    <path d="M12.1795 0L15.7587 7.25312L23.7629 8.41582L17.9708 14.0612L19.3384 22.0329L12.1795 18.2688L5.02056 22.0329L6.38819 14.0612L0.596107 8.41582L8.60027 7.25312L12.1795 0Z"
+                                        fill="#FFCC48" />
+                                    <path d="M43.5898 0L47.169 7.25312L55.1731 8.41582L49.3811 14.0612L50.7487 22.0329L43.5898 18.2688L36.4308 22.0329L37.7985 14.0612L32.0064 8.41582L40.0105 7.25312L43.5898 0Z"
+                                        fill="#FFCC48" />
+                                    <path d="M75 0L78.5792 7.25312L86.5834 8.41582L80.7913 14.0612L82.1589 22.0329L75 18.2688L67.8411 22.0329L69.2087 14.0612L63.4166 8.41582L71.4208 7.25312L75 0Z"
+                                        fill="#FFCC48" />
+                                    <path d="M106.41 0L109.989 7.25312L117.994 8.41582L112.202 14.0612L113.569 22.0329L106.41 18.2688L99.2513 22.0329L100.619 14.0612L94.8269 8.41582L102.831 7.25312L106.41 0Z"
+                                        fill="#FFCC48" />
+                                    <path d="M137.82 0L141.4 7.25312L149.404 8.41582L143.612 14.0612L144.979 22.0329L137.82 18.2688L130.662 22.0329L132.029 14.0612L126.237 8.41582L134.241 7.25312L137.82 0Z"
+                                        fill="#FFCC48" />
+                                </svg>
+                            </div>
+                            <p class="card__price">As low as <span class = "price-bold">$40.99</span></p>
+                            <button type="button" class="add-to-cart">ADD TO CART</button>
+                            </div>   
+                        </div>
+                        <div class="sale__card">
+                            <div class="card__img"><img src="img/sale_2.png" alt=""></div>
+                            <p class="card__name">Inlet Original Short</p>
+                            <div class="card__container">
+                                <div class="card__mark">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="150" height="25" viewBox="0 0 150 25" fill="none">
+                                        <path d="M12.1795 0L15.7587 7.25312L23.7629 8.41582L17.9708 14.0612L19.3384 22.0329L12.1795 18.2688L5.02056 22.0329L6.38819 14.0612L0.596107 8.41582L8.60027 7.25312L12.1795 0Z"
+                                            fill="#FFCC48" />
+                                        <path d="M43.5898 0L47.169 7.25312L55.1731 8.41582L49.3811 14.0612L50.7487 22.0329L43.5898 18.2688L36.4308 22.0329L37.7985 14.0612L32.0064 8.41582L40.0105 7.25312L43.5898 0Z"
+                                            fill="#FFCC48" />
+                                        <path d="M75 0L78.5792 7.25312L86.5834 8.41582L80.7913 14.0612L82.1589 22.0329L75 18.2688L67.8411 22.0329L69.2087 14.0612L63.4166 8.41582L71.4208 7.25312L75 0Z"
+                                            fill="#FFCC48" />
+                                        <path d="M106.41 0L109.989 7.25312L117.994 8.41582L112.202 14.0612L113.569 22.0329L106.41 18.2688L99.2513 22.0329L100.619 14.0612L94.8269 8.41582L102.831 7.25312L106.41 0Z"
+                                            fill="#FFCC48" />
+                                        <path d="M137.82 0L141.4 7.25312L149.404 8.41582L143.612 14.0612L144.979 22.0329L137.82 18.2688L130.662 22.0329L132.029 14.0612L126.237 8.41582L134.241 7.25312L137.82 0Z"
+                                            fill="#FFCC48" />
+                                    </svg>
+                                </div>
+                                <p class="card__price">As low as <span class="price-bold">$38.99</span></p>
+                                <button type="button" class="add-to-cart">ADD TO CART</button>
+                            </div>
+                            
+                        </div>
+                        <div class="sale__card">
+                            <div class="card__img"><img src="img/sale_3.png" alt=""></div>
+                            <p class="card__name">TGIF Pant</p>
+                            <div class="card__container">
+                                <div class="card__mark">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="150" height="25" viewBox="0 0 150 25" fill="none">
+                                        <path d="M12.1795 0L15.7587 7.25312L23.7629 8.41582L17.9708 14.0612L19.3384 22.0329L12.1795 18.2688L5.02056 22.0329L6.38819 14.0612L0.596107 8.41582L8.60027 7.25312L12.1795 0Z"
+                                            fill="#FFCC48" />
+                                        <path d="M43.5898 0L47.169 7.25312L55.1731 8.41582L49.3811 14.0612L50.7487 22.0329L43.5898 18.2688L36.4308 22.0329L37.7985 14.0612L32.0064 8.41582L40.0105 7.25312L43.5898 0Z"
+                                            fill="#FFCC48" />
+                                        <path d="M75 0L78.5792 7.25312L86.5834 8.41582L80.7913 14.0612L82.1589 22.0329L75 18.2688L67.8411 22.0329L69.2087 14.0612L63.4166 8.41582L71.4208 7.25312L75 0Z"
+                                            fill="#FFCC48" />
+                                        <path d="M106.41 0L109.989 7.25312L117.994 8.41582L112.202 14.0612L113.569 22.0329L106.41 18.2688L99.2513 22.0329L100.619 14.0612L94.8269 8.41582L102.831 7.25312L106.41 0Z"
+                                            fill="#FFCC48" />
+                                        <path d="M137.82 0L141.4 7.25312L149.404 8.41582L143.612 14.0612L144.979 22.0329L137.82 18.2688L130.662 22.0329L132.029 14.0612L126.237 8.41582L134.241 7.25312L137.82 0Z"
+                                            fill="#BCBCCC" />
+                                    </svg>
+                                </div>
+                                <p class="card__price">As low as <span class="price-bold">$40.99</span></p>
+                                <button type="button" class="add-to-cart">ADD TO CART</button>
+                            </div>
+                            
+                        </div>
+                        <div class="sale__card">
+                            <div class="card__img">
+                                <img src="img/sale_4.png" alt="">
+                            </div>
+                            <p class="card__name">Inlet Original Pant</p>
+                            <div class="card__container">
+                                <div class="card__mark">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="150" height="25" viewBox="0 0 150 25" fill="none">
+                                        <path d="M12.1795 0L15.7587 7.25312L23.7629 8.41582L17.9708 14.0612L19.3384 22.0329L12.1795 18.2688L5.02056 22.0329L6.38819 14.0612L0.596107 8.41582L8.60027 7.25312L12.1795 0Z"
+                                            fill="#FFCC48" />
+                                        <path d="M43.5898 0L47.169 7.25312L55.1731 8.41582L49.3811 14.0612L50.7487 22.0329L43.5898 18.2688L36.4308 22.0329L37.7985 14.0612L32.0064 8.41582L40.0105 7.25312L43.5898 0Z"
+                                            fill="#FFCC48" />
+                                        <path d="M75 0L78.5792 7.25312L86.5834 8.41582L80.7913 14.0612L82.1589 22.0329L75 18.2688L67.8411 22.0329L69.2087 14.0612L63.4166 8.41582L71.4208 7.25312L75 0Z"
+                                            fill="#FFCC48" />
+                                        <path
+                                            d="M106.41 0L109.989 7.25312L117.994 8.41582L112.202 14.0612L113.569 22.0329L106.41 18.2688L99.2513 22.0329L100.619 14.0612L94.8269 8.41582L102.831 7.25312L106.41 0Z"
+                                            fill="#FFCC48" />
+                                        <path
+                                            d="M137.82 0L141.4 7.25312L149.404 8.41582L143.612 14.0612L144.979 22.0329L137.82 18.2688L130.662 22.0329L132.029 14.0612L126.237 8.41582L134.241 7.25312L137.82 0Z"
+                                            fill="#BCBCCC" />
+                                    </svg>
+                                </div>
+                                <p class="card__price">As low as <span class="price-bold">$52.99</span></p>
+                                <button type="button" class="add-to-cart">ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>         
+            </section>
+
+            <section>
+                <div class="wrapper">
+                    <div class="section1-3 section3__padding">
+                        <div class="s1-3__visual">
+                            <div class="visual__frame__sect3"></div>
+                            <div></div>
+                            <div class="visual__img__sect3">
+                                <img src="img/pants.png" alt="">
+                            </div>
+                        </div>
+                        <div class="s1-3__title">
+                            <h1 class="whiteblock__title">OUR BESTSELLING PANTS</h1>
+                            <p class="whiteblock__description">Our classic cargo pants are built to last and designed to exceed your expectations! From Frequent Traveler to Hatteras
+                            to Trinidad, we have the perfect fit for you!</p>
+                            <button type="button" class="grey-button"><a href="page2/index.html">SHOP ALL PANTS</a></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="new-info">
+                    <div class="wrapper">
+                        <div class="new-info__container">
+                            <div class="new-info__card">
+                                <div class="new-info__img">
+                                    <div class="new-info__decoration">
+                                        <p class="new-info__title">ECOTHS: NOW 30% OFF!</p>
+                                    </div>
+                                </div>
+                                <p class="new-info__description">Our entire Ecoths collection is on sale! Plus, for every Ecoths purchase we donate 3 meals to food banks across the
+                                United States. We’re over 400,000 meals in now.</p>
+                                <button type="button" class="grey-button new-info__button-width"><a href="page2/index.html">SHOP ECOTHS SALE</a></button>
+                            </div>
+                            <div class="new-info__card">
+                                <div class="new-info__img new-info__background">
+                                    <div class="new-info__decoration">
+                                        <p class="new-info__title">NEW POWELL PRINT SHIRT</p>
+                                    </div>
+                                </div>
+                                <p class="new-info__description">New from Old Ranch Brands, the Powell short sleeve print shirt! Look effortlessly sharp in this lightweight cotton shirt
+                                with a classic shape and convenient features.</p>
+                                <button type="button" class="grey-button new-info__button-width"><a href="page2/index.html">SHOP POWEL SHORT SLEEVE</a></button>
+                            </div>
+                        </div>                    
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="original">
+                    <div class="wrapper">
+                        <div class="original__info">
+                            <h1 class="original__title">SPORTIF ORIGINAL PANT</h1>
+                        <p class="original__description">Our classic nautical cargo pants are built to last and designed to exceed your expectations! Crafted from our stretch
+                        twill blend that offers the comfort of cotton, the wrinkle resistance of polyester and the mobility of Lycra®.</p>
+                        <button type="button" class = "original__button"><a href="page2/index.html">SHOP SPORTIF ORIGINAL PANT</a></button>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="wrapper">
+                    <div class="trends">
+                        <h1 class="trends__title">STAY IN TREND WITH SPORTIF</h1>
+                        <div class="trends__cards">
+                            <div class="trends__card">
+                                <div class="trends__img">
+                                    <img src="img/sportif_1.png" alt="">
+                                </div>
+                                <div class="trends__info">
+                                    <p class="trends__name">Don't Forget a Belt!</p>
+                                    <button type="button" class="trends__button"><a href="page2/index.html">SHOP ALL BELTS</a></button>
+                                </div>           
+                            </div>
+                            <div class="trends__card">
+                                <div class="trends__img trends__img__padding">
+                                    <img src="img/sportif_2.png" alt="">
+                                </div>
+                                <div class="trends__info">
+                                    <p class="trends__name">Swim Trunk Styles on Sale!</p>
+                                <button type="button" class="trends__button"><a href="page2/index.html">SHOP ALL SWIM TRUNKS</a></button>
+                                </div>         
+                            </div>
+                            <div class="trends__card">
+                                <div class="trends__img">
+                                    <img src="img/sportif_3.png" alt="">
+                                </div>
+                                <div class="trends__info">
+                                    <p class="trends__name">Shop Newest Online Catalog</p>
+                                <button type="button" class="trends__button"><a href="page2/index.html">SHOP NEWEST CATALOG</a></button>
+                                </div>     
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+
+            <section class = "about-us__phone">
+                <div class="wrapper">
+                    <div class="about-us">
+                        <div class="about-us__img">
+                            <img src="img/50.png">
+                        </div>
+                        <h1 class="about-us__title">FAMILY OWNED LEGACY</h1>
+                        <p class="about-us__description">We are proud to celebrate over 50 years of excellence as a family owned and operated business.</p>
+                        <button type="button" class="grey-button about-us__button"><a href="#">ABOUT US</a></button>
+                    </div>
+                </div>
+            </section>
+
+            <button type="button" class = "arrow-up">
+                <img src="img/arrow.png" alt="">
+            </button>
+        </main>
+
+    <footer>
+        <div class="footer">
+            <div class="wrapper">
+                <ul class="footer__list">
+                    <li class="footer__item">ORDERING ONLINE</li>
+                    <li class="footer__item"><a href="" class="footer__link">Account Login</a></li>
+                    <li class="footer__item"><a href="" class="footer__link">Our Guarantee</a></li>
+                    <li class="footer__item"><a href="" class="footer__link">Sportif Stretch Guide</a></li>
+                    <li class="footer__item"><a href="" class="footer__link">Size Chart & Sizing Information</a></li>
+                    <li class="footer__item"><a href="" class="footer__link">Hemming Information</a></li>
+                    <li class="footer__item"><a href="" class="footer__link">Ordering & Payment</a></li>
+                    <li class="footer__item"><a href="" class="footer__link">Shipping Information</a></li>
+                    <li class="footer__item"><a href="" class="footer__link">Returns</a></li>
+                </ul>
+                <ul class="footer__list">
+                    <li class="footer__item">ABOUT SPORTIF</li>
+                    <li class="footer__item"><a href="" class="footer__link">COVID-19 Response</a></li>
+                    <li class="footer__item"><a href="" class="footer__link">History</a></li>
+                    <li class="footer__item"><a href="" class="footer__link">Legacy</a></li>
+                    <li class="footer__item"><a href="" class="footer__link">Good Sam Program</a></li>
+                    <li class="footer__item"><a href="" class="footer__link">Privacy & Security</a></li>
+                    <li class="footer__item"><a href="" class="footer__link">Terms & Conditions</a></li>
+                    <li class="footer__item"><a href="" class="footer__link">Careers</a></li>
+                </ul>
+                <ul class="footer__list">
+                    <li class="footer__item footer__shadows">QUICK LINKS</li>
+                    <li class="footer__item"><a href="" class="footer__link footer__shadows">FAQs</a></li>
+                    <li class="footer__item"><a href="" class="footer__link footer__shadows">Shop Online Catalog</a></li>
+                    <li class="footer__item"><a href="" class="footer__link footer__shadows">Contact Us</a></li>
+                </ul>
+                <div class="footer__container">
+                    <h3 class="footer__container__title">GET TO KNOW US</h3>
+                    <p class="footer__container__description">Sign up for our weekly newsletter and get a 10% off coupon by email for your first order!</p>
+
+                    <form action="" class="footer__form">
+                        <label for="" class="footer__container__description">Sign Up for Our Newsletter:</label>
+                        <input type="email" placeholder="EMAIL ADDRESS" class = "footer__input"> 
+                        <button type="button" class = "footer__button">SUBSCRIBE</button>
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="wrapper">
+            <p class="rights">©2021 Sportif Mailorder. All Rights Reserved.</p>
+        </div>
+        
+    </footer>
+    
+</body>
+</html>
